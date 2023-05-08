@@ -24,5 +24,9 @@
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "typescript": "^5.0.4"
+  },
+  "prettier": {
+    "bracketSameLine": true,
+    "printWidth": 100
   }
 }
