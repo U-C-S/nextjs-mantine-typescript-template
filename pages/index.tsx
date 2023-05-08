@@ -1,4 +1,4 @@
-import { Center, Text } from "@mantine/core";
+import { Anchor, Button, Stack, Text } from "@mantine/core";
 import Head from "next/head";
 
 export default function Home() {
@@ -10,9 +10,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Center>
+      <Stack align="center">
         <Text>Mantine UI is so Cool</Text>
-      </Center>
+
+        <Anchor href="https://github.com/U-C-S/nextjs-mantine-typescript-template">
+          <Button variant="outline">GitHub</Button>
+        </Anchor>
+      </Stack>
     </>
   );
 }
